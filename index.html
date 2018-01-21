@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../matefiles/css/materialize.min.css" media="screen, projection" type="text/css">
+    <link rel="stylesheet" href="css/estilos.css" media="screen, projection" type="text/css">
+    <title>Actividad e Materialize</title>
+  </head>
+  <body class="teal accent-1">
+    <div class="row">
+      <header class="col s12 cyan lighten-1 row encabezado">
+        <div class="col s12 m8 l5">
+          <img src="img/logoATD.svg" alt="logo" class="logo responsive-img">
+          <div class="input-field buscador">
+            <input type="text" placeholder="Buscar..." class="white-text">
+            <i class="material-icons prefix">search</i>
+          </div>
+        </div>
+        <div class="col m4 offset-l3 hide-on-small-only botones-accion">
+          <a href="#" class="btn-floating btn-small light-blue waves-effect"><i class="material-icons">edit</i></a>
+          <a href="#" class="btn-floating btn-small light-blue waves-effect"><i class="material-icons">message</i></a>
+          <a href="#" class="btn-floating btn-small light-blue waves-effect"><i class="material-icons">settings</i></a>
+        </div>
+      </header>
+      <!-- Columna de Grupos -->
+      <aside class="col s2 m2 l2 push-s10 teal lighten-3 principal" id="grupos">
+        <div class="collection">
+          <a href="#" class="collection-item avatar">
+            <img src="img/html5-logo.png" alt="Logo HTML5" class="circle">
+            <span class="title hide-on-med-and-down">HTML5</span>
+            <p class="yellow-text text-darken-2 hide-on-med-and-down">320 Miembros</p>
+          </a>
+          <a href="#" class="collection-item avatar">
+            <img src="img/css3-logo.png" alt="Logo CSS3" class="circle">
+            <span class="title hide-on-med-and-down">CSS3</span>
+            <p class="yellow-text text-darken-2 hide-on-med-and-down">220 Miembros</p>
+          </a>
+          <a href="#" class="collection-item avatar">
+            <img src="img/boostrap-logo.png" alt="Logo Bootstrap" class="circle">
+            <span class="title hide-on-med-and-down">Bootstrap</span>
+            <p class="yellow-text text-darken-2 hide-on-med-and-down">120 Miembros</p>
+          </a>
+          <a href="#" class="collection-item avatar">
+            <img src="img/yeti.png" alt="Logo Foundation CSS" class="circle">
+            <span class="title hide-on-med-and-down">Foundation</span>
+            <p class="yellow-text text-darken-2 hide-on-med-and-down">120 Miembros</p>
+          </a>
+          <a href="#" class="collection-item avatar">
+            <img src="img/materialize.png" alt="Logo Materialize" class="circle">
+            <span class="title hide-on-med-and-down">Materialize</span>
+            <p class="yellow-text text-darken-2 hide-on-med-and-down">120 Miembros</p>
+          </a>
+        </div>
+      </aside>
+
+      <!--Columna principal  -->
+      <section class="col s10 m7 l7 pull-s2 teal accent-1 principal z-depth-3">
+        <div class="row">
+          <!-- Columna de publicaciones -->
+          <article class="col s12 m12 l8 green accent-1 principal z-depth-2">
+            <div class="card green lighten-5 nueva">
+              <div class="card-content">
+                <span>Escribe una nueva publicación</span>
+                <form class="" action="index.html" method="post">
+                  <textarea class="cyan lighten-1 publicacion white-text" name="publicacion" ></textarea>
+                  <a href="#" class="btn-floating cyan waves-effect"><i class="material-icons">code</i></a>
+                  <a href="#" class="btn-floating cyan waves-effect"><i class="material-icons">edit</i></a>
+                  <a href="#" class="btn-floating cyan waves-effect"><i class="material-icons">keyboard_voice</i></a>
+                  <a href="#" class="btn cyan waves-effect right hide-on-small-only"><i class="material-icons">send</i></a>
+                  <a href="#" class="btn-floating cyan waves-effect right hide-on-med-and-up"><i class="material-icons">send</i></a>
+                </form>
+              </div>
+            </div>
+            <!-- Publicacion Video -->
+            <div class="card green lighten-5 publicaciones">
+              <div class="card-content ">
+                <span class="activator card-title">Alejandro: <i class="right material-icons">more_vert</i></span>
+                <p>Les quiero compartir quien soy yo.</p>
+              </div>
+              <div class="card-image">
+                <video class="responsive-video" autoplay controls>
+                  <source src="videos/perfil_empresarial.mp4" type="video/mp4">
+                    Este video no es compatible con tu navegador
+                  </video>
+                </div>
+              <div class="card-reveal grey lighten-1 ">
+                <span class="card-title">¿Quien soy? <i class="material-icons right">close</i></span>
+                <p>Este video es para mostrar quien soy yo, Alejandro Taborda, y que habilidades tengo</p>
+              </div>
+            </div>
+
+            <!-- Publicación con cita -->
+            <div class="card green lighten-5 publicaciones">
+              <div class="card-content">
+                <span class="activator card-title">Alejandro: <i class="right material-icons">more_vert</i></span>
+                <p>Esto haré hoy:</p>
+                <blockquote >
+                  En esta ocación estoy mostrando lo aprendido acerca de materialize por medio de esta red social
+                </blockquote>
+              </div>
+              <div class="card-reveal grey lighten-1">
+                <span class="card-title">¿Qué hago? <i class="material-icons right">close</i></span>
+                <p class="flow-text">Actualmente soy diseñador web con experiencia en HTML5, CSS3 y algunos frameworks como Bootstrap, Foundation y Materialize</p>
+              </div>
+            </div>
+          </article>
+          <aside class=" col l3 offset-l1 hide-on-med-and-down principal noticias grey lighten-3">
+            <h5 class="center-align">Últimas Noticias</h5>
+            <article class="">
+              <p class="truncate">Pareja de 22 y 19 años se casan el 7 de julio del 2017</p>
+              <img src="img/matrimonio.jpg" alt="Foto de matrimonio" class="responsive-img foto-noticias">
+            </article>
+            <article class="">
+              <p class="truncate">El mejor baile de matrimonio de la historia</p>
+              <img src="img/baile.jpg" alt="Foto de baile" class="responsive-img foto-noticias">
+            </article>
+            <article class="">
+              <p class="truncate">Joven fue atracado en guayabal, el ladron iba en una moto de placas YUB95A y robó su argolla de matrimonio</p>
+              <img src="img/argollas.jpg" alt="Foto de argolla robada" class="responsive-img foto-noticias">
+            </article>
+          </aside>
+        </div>
+      </section>
+      <aside class="p-0 col s3 m3 l3 hide-on-small-only cyan lighten-4 principal">
+        <div class="row">
+          <!-- Actividades Recientes -->
+          <div class="col s12 teal lighten-3 secundario">
+            <ul class="collection green lighten-5 with-header black-text">
+              <h5 class="collection-header green lighten-5">Actividades recientes</h5>
+              <li class="collection-item avatar green lighten-5">
+                <i class="material-icons circle teal accent-4">refresh</i>
+                <span class="title">Maria_Dev</span>
+                <p>respondió tu pregunta</p>
+              </li>
+              <li class="collection-item avatar green lighten-5">
+                <i class="material-icons circle green">person_add</i>
+                <span class="title">CodigosOnline</span>
+                <p>
+                quiere agregarte como amigo
+                </p>
+              </li>
+              <li class="collection-item avatar green lighten-5">
+                <i class="material-icons circle yellow darken-3">help</i>
+                <span class="title">WebRodrigo</span>
+                <p>
+                te hizo una pregunta
+                </p>
+              </li>
+              <li class="collection-item avatar green lighten-5">
+                <i class="material-icons circle purple">people</i>
+                <span class="title">Grupo JavaScript</span>
+                <p>
+                hizo una publicación
+                </p>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Chat -->
+          <div class="col s12 teal lighten-3 secundario">
+            <ul class="collection grey lighten-1 with-header black-text">
+              <h5 class="collection-header grey lighten-1">Chat</h5>
+              <li class="collection-item grey lighten-1">
+                <div class="chip">
+                  <img src="img/hombre.png" alt="foto hombre">
+                  WebRodrigo
+                </div>
+              </li>
+              <li class="collection-item grey lighten-1">
+                <div class="chip">
+                  <img src="img/mujer.png" alt="foto Mujer">
+                  MariaDev
+                </div>
+              </li>
+              <li class="collection-item grey lighten-1">
+                <div class="chip">
+                  <img src="img/hombre.png" alt="foto hombre">
+                  CodigosOnline
+                </div>
+              </li>
+              <li class="collection-item grey lighten-1">
+                <div class="chip">
+                  <img src="img/mujer.png" alt="foto Mujer">
+                  Ximebot
+                </div>
+              </li>
+              <li class="collection-item grey lighten-1">
+                <div class="chip">
+                  <img src="img/hombre.png" alt="foto hombre">
+                  Alejandro
+                </div>
+              </li>
+              <li class="collection-item grey lighten-1">
+                <div class="chip">
+                  <img src="img/mujer.png" alt="foto Mujer">
+                  RitaG
+                </div>
+              </li>
+              <li class="collection-item grey lighten-1">
+                <div class="chip">
+                  <img src="img/hombre.png" alt="foto hombre">
+                  GaboWeb
+                </div>
+              </li>
+              <li class="collection-item grey lighten-1">
+                <div class="chip">
+                  <img src="img/mujer.png" alt="foto Mujer">
+                  SandyJS
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+
+      <div class="fixed-action-btn click-to-toggle hide-on-small-only" style="bottom:50px; right:90vw">
+        <a href="#" class="btn-floating btn-large blue"><i class="material-icons">build</i></a>
+        <ul>
+          <li><a href="#" class="btn-floating blue"><i class="material-icons">supervisor_account</i></a></li>
+          <li><a href="#" class="btn-floating coal"><i class="material-icons">zoom_in</i></a></li>
+          <li><a href="#" class="btn-floating green"><i class="material-icons">bug_report</i></a></li>
+          <li><a href="#" class="btn-floating teal"><i class="material-icons">share</i></a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../matefiles/js/materialize.min.js"></script>
+  </body>
+</html>

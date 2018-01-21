@@ -1,0 +1,70 @@
+.encabezado{
+  min-height: 4rem;
+  margin-bottom: 0;
+}
+
+.logo{
+  margin-top: 0.5rem;
+  width: 3.5rem;
+  float: left;
+}
+
+.buscador{
+  float: left;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  width: 70%;
+}
+
+.buscador input{
+  font-size: 1.5rem;
+}
+
+.botones-accion{
+  margin-top: 1rem;
+}
+
+.principal{
+  min-height: 50rem;
+}
+
+.publicacion{
+  resize: none;
+  height: 5rem;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.secundario{
+  height: 25rem;
+  color: white;
+  overflow: scroll;
+}
+
+.noticias{
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.p-0{
+  padding: 0 !important;
+}
+
+.nueva{
+  min-height: 7rem;
+}
+
+.publicaciones{
+  min-height: 17rem;
+}
+
+.foto-noticias{
+  border: 0.6rem solid #26c6da;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  #grupos{
+    padding: 0;
+  }
+}
